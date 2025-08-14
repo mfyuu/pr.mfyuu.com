@@ -109,18 +109,11 @@ The main configuration is in `vite.config.ts`:
 ```javascript
 kitRoutes({
 	LINKS: {
-		domain: 'https://pr.ryoppippi.com',
-		repo: 'https://github.com/ryoppippi/pr.ryoppippi.com',
-		username: 'ryoppippi',
+		domain: 'https://pr.namidapoo.com',
+		repo: 'https://github.com/namidapoo/pr.namidapoo.com',
+		username: 'namidapoo',
 		includeYourOwnPRs: 'true', // 'true' or 'false'
-		hideList: ([
-			'ryoppippi/ryoppippi.com',
-			'ryoppippi/talks',
-			'ryoppippi/cv',
-			'samchon/*',
-			'wrtnlabs/*',
-			'StackOneHQ/*',
-		]).join(','), // Supports glob patterns
+		hideList: ([]).join(','), // Supports glob patterns
 	},
 });
 ```

@@ -20,18 +20,11 @@ export default defineConfig({
 		sveltekit(),
 		kitRoutes({
 			LINKS: {
-				domain: `https://pr.ryoppippi.com`,
-				repo: 'https://github.com/ryoppippi/pr.ryoppippi.com',
-				username: 'ryoppippi',
+				domain: `https://pr.namidapoo.com`,
+				repo: 'https://github.com/namidapoo/pr.namidapoo.com',
+				username: 'namidapoo',
 				includeYourOwnPRs: 'true', // Include your own PRs 'true' or 'false'
-				hideList: ([
-					'ryoppippi/ryoppippi.com',
-					'ryoppippi/talks',
-					'ryoppippi/cv',
-					'samchon/*',
-					'wrtnlabs/*',
-					'StackOneHQ/*',
-				]).join(','),
+				hideList: ([]).join(','),
 			},
 		}),
 	],

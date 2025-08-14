@@ -38,7 +38,7 @@ export const getUser = query(async () => {
 export const getPRs = query(async (): Promise<PR[]> => {
 	const isIncludeYourOwnPRs = route('includeYourOwnPRs') === 'true';
 	const { platform } = getRequestEvent();
-	const cacheKey = new URL(`https://cache.pr.ryoppippi.com/prs/${route('username')}/${isIncludeYourOwnPRs}`).toString();
+	const cacheKey = new URL(`https://cache.pr.namidapoo.com/prs/${route('username')}/${isIncludeYourOwnPRs}`).toString();
 
 	// Try to get from Cloudflare Cache if available
 	if (globalThis.caches != null) {

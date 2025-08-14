@@ -1,4 +1,4 @@
-# pr.ryoppippi.com
+# pr.namidapoo.com
 
 ![Screenshot](https://github.com/user-attachments/assets/aeb193b5-7afe-4ef2-8078-28f54249f490)
 
@@ -30,9 +30,9 @@ Then edit info in `vite.config.ts`.
 const config = {
 	// ...
 	LINKS: {
-		domain: `https://pr.ryoppippi.com`, // The hostname of your site
-		repo: 'https://github.com/ryoppippi/pr.ryoppippi.com', // GitHub repository name ( will be the link of octocat icon 🐱 )
-		username: 'ryoppippi', // GitHub username
+		domain: `https://pr.namidapoo.com`, // The hostname of your site
+		repo: 'https://github.com/namidapoo/pr.namidapoo.com', // GitHub repository name ( will be the link of octocat icon 🐱 )
+		username: 'namidapoo', // GitHub username
 		includeYourOwnPRs: 'true', // Include your own PRs 'true' or 'false'
 	},
 	// ...
@@ -71,7 +71,7 @@ This repository supports deployment to Cloudflare Workers.
 
 ### Cloudflare Workers
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ryoppippi/pr.ryoppippi.com)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/namidapoo/pr.namidapoo.com)
 
 Run the following command:
 
