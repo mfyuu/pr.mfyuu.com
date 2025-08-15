@@ -1,13 +1,6 @@
 # pr.namidapoo.com
 
-![Screenshot](https://github.com/user-attachments/assets/aeb193b5-7afe-4ef2-8078-28f54249f490)
-
-<details>
-<summary>Video</summary>
-
-https://github.com/user-attachments/assets/cea80c3d-ba87-480a-8090-bb611dc2a2db
-
-</details>
+![Screenshot](https://storage.googleapis.com/zenn-user-upload/6f2e629aec87-20250815.png)
 
 ## Built with
 
