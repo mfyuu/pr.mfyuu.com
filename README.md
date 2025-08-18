@@ -1,4 +1,4 @@
-# pr.namidapoo.com
+# pr.mfyuu.com
 
 ![Screenshot](https://storage.googleapis.com/zenn-user-upload/6f2e629aec87-20250815.png)
 
@@ -23,9 +23,9 @@ Then edit info in `vite.config.ts`.
 const config = {
 	// ...
 	LINKS: {
-		domain: `https://pr.namidapoo.com`, // The hostname of your site
-		repo: 'https://github.com/namidapoo/pr.namidapoo.com', // GitHub repository name ( will be the link of octocat icon 🐱 )
-		username: 'namidapoo', // GitHub username
+		domain: `https://pr.mfyuu.com`, // The hostname of your site
+		repo: 'https://github.com/mfyuu/pr.mfyuu.com', // GitHub repository name ( will be the link of octocat icon 🐱 )
+		username: 'mfyuu', // GitHub username
 		includeYourOwnPRs: 'true', // Include your own PRs 'true' or 'false'
 	},
 	// ...
@@ -64,7 +64,7 @@ This repository supports deployment to Cloudflare Workers.
 
 ### Cloudflare Workers
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/namidapoo/pr.namidapoo.com)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/mfyuu/pr.mfyuu.com)
 
 Run the following command:
 

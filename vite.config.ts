@@ -20,9 +20,9 @@ export default defineConfig({
 		sveltekit(),
 		kitRoutes({
 			LINKS: {
-				domain: `https://pr.namidapoo.com`,
-				repo: 'https://github.com/namidapoo/pr.namidapoo.com',
-				username: 'namidapoo',
+				domain: `https://pr.mfyuu.com`,
+				repo: 'https://github.com/mfyuu/pr.mfyuu.com',
+				username: 'mfyuu',
 				includeYourOwnPRs: 'true', // Include your own PRs 'true' or 'false'
 				hideList: ([]).join(','),
 			},
