@@ -16,25 +16,55 @@
 	flex='~ items-center gap-4'
 	sliding-animation='~ delay-base'
 >
-	<a
-		aria-label="{prUserName}'s profile"
-		border='~ gray-200 dark:gray-800'
-		href={prURL}
-		overflow-hidden
+	<div
 		relative
-		rounded-md
-		shadow-sm
 		shrink-0
 		size-12
-		target='_blank'
 	>
-		<img
-			alt={pr.repo}
-			loading='lazy'
+		<a
+			aria-label="{prUserName}'s profile"
+			block
+			border='~ gray-200 dark:gray-800'
+			href={prURL}
+			overflow-hidden
+			relative
+			rounded-md
+			shadow-sm
 			size-full
-			src='https://github.com/{prUserName}.png'
-		/>
-	</a>
+			target='_blank'
+		>
+			<img
+				alt={pr.repo}
+				loading='lazy'
+				size-full
+				src='https://github.com/{prUserName}.png'
+			/>
+		</a>
+		{#if pr.author?.username && pr.author.username !== prUserName}
+			<a
+				absolute
+				aria-label="{pr.author.username}'s profile"
+				bg='white dark:gray-900'
+				border='2 white dark:gray-900'
+				bottom--1
+				href='https://github.com/{pr.author.username}'
+				overflow-hidden
+				right--1
+				rounded-full
+				shadow-sm
+				size-6
+				target='_blank'
+			>
+				<img
+					alt={pr.author.username}
+					loading='lazy'
+					rounded-full
+					size-full
+					src={pr.author.avatar}
+				/>
+			</a>
+		{/if}
+	</div>
 
 	<div
 		flex='~ 1 justify-between'

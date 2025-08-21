@@ -5,6 +5,10 @@ export type PR = {
 	created_at: string;
 	state: 'merged' | 'open' | 'closed';
 	number: number;
+	author: {
+		username: string;
+		avatar: string;
+	};
 };
 
 export type User = {

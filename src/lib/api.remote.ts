@@ -72,6 +72,10 @@ export const getPRs = query(async (): Promise<PR[]> => {
 		created_at: pr.created_at,
 		state: pr.pull_request?.merged_at != null ? 'merged' : pr.state as PR['state'],
 		number: pr.number,
+		author: {
+			username: pr.user?.login ?? '',
+			avatar: pr.user?.avatar_url ?? '',
+		},
 	})).filter(pr => !isHidden(pr.repo, hideList));
 
 	// Cache in Cloudflare Cache if available
