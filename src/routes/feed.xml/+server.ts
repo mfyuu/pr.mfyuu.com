@@ -21,14 +21,14 @@ export const GET = (async () => {
 	]);
 
 	const feed = new Feed({
-		title: `${user.name} is contributing...`,
-		description: `Discover ${user.name}'s recent pull requests on GitHub`,
+		title: `${user.username} is contributing...`,
+		description: `Discover ${user.username}'s recent pull requests on GitHub`,
 		id: domain,
 		link: domain,
 		language: 'en',
 		image: new URL('favicon.png', domain).toString(),
 		favicon: new URL('favicon.png', domain).toString(),
-		copyright: `MIT 2024 © ${user.name}`,
+		copyright: `MIT 2024 © ${user.username}`,
 		feedLinks: {
 			rss: `${domain}/rss.xml`,
 		},

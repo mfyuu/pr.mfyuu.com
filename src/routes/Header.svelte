@@ -33,7 +33,7 @@
 				src={user.avatar}
 				w-12
 			/>
-			{user.name}
+			{user.username}
 		</a>
 		is <span animate-pulse>Contributing...</span>
 	</h1>

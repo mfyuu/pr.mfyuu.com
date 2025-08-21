@@ -5,7 +5,7 @@
 
 	const user = await getUser();
 	const userUrl = new URL(user.username, 'https://github.com/').toString();
-	const title = `${user.name} is Contributing...`;
+	const title = `${user.username} is Contributing...`;
 	const description = `${user.username}'s recent pull requests on GitHub`;
 	const faviconURL = `${userUrl}.png`;
 </script>
