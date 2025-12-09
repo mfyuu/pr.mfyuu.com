@@ -1,6 +1,6 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "pr-mfyuu",
+	"name": "pr-namidapoo",
 	"compatibility_date": "2025-06-19",
 	"compatibility_flags": [
 		"nodejs_compat"
